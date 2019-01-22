@@ -1,0 +1,40 @@
+:root{
+    --color-yellow: #EAB000;
+    --color-yellow-transparent: rgba(234, 176, 0, 0.85);
+    --color-white: rgba(255, 255, 255, 0.85);
+    --proxima-nova: "Proxima Nova";
+    --pair-fair: "Pair Fair Display";
+}
+
+footer{
+    height: 125px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nave{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 50%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.nave>img{
+    height: 170%;
+    cursor: pointer;
+}
+
+.nave span{
+    color: rgba(255, 255, 255, 0.473);
+    font-size: 13px;
+    font-family: var(--proxima-nova);
+    position: absolute;
+    left: 10px;
+    bottom: -20px;
+}

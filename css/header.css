@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --color-yellow: #EAB000;
+    --color-yellow-transparent: rgba(234, 176, 0, 0.85);
+    --color-white: rgba(255, 255, 255, 0.85);
+    --proxima-nova: "Proxima Nova";
+    --pair-fair: "Pair Fair Display";
+}
+
+@font-face{
+    font-family: "Proxima Nova";
+    src: local(proxima-nova), url(../font/proxima-nova.otf);
+    font-family: "Pair Fair Display";
+    src: local(PlayfairDisplay-Black), url(../font/PlayfairDisplay-Black.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Pair Fair Display";
+}
+
+header{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+header>img{
+    height: 180%;
+    margin-left: 3vw;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+header>img:hover{
+    transform: scale(1.05);
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+ul li{
+    list-style: none;
+    width: 108px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--proxima-nova);
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3vw;
+    color: white;
+    cursor: pointer;
+}
+
+.burguer{
+    height: 30px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 4px;
+}
+
+.burguer-toggle{
+    justify-content: center;
+}
+
+.barra{
+    width: 22px;
+    height: 1px;
+    background-color: var(--color-yellow);
+}
+
+.barra-toggle{
+    position: absolute;
+    height: 1.5px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+
+.barra-toggle:last-child{
+    transform: rotate(135deg);
+}
+
+
+
+.menu span{
+    font-size: 14px;
+    color: var(--color-white);
+    font-family: var(--proxima-nova);
+}
+
+.menu span:hover{
+    color: white;
+}
+
+
