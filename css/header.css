@@ -37,11 +37,6 @@ header>img{
     margin-left: 3vw;
     margin-top: 5px;
     cursor: pointer;
-    transition: .3s;
-}
-
-header>img:hover{
-    transform: scale(1.05);
 }
 
 nav{

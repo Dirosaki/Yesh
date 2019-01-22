@@ -15,7 +15,6 @@ body.onscroll = () => {
     if(scrollY > 120){
         up.classList.add('up-scroll');
         if(scrollY > 520){
-            // up.classList.add('up-scroll');
             up.style.backgroundColor = '#EAB000';
             arrow.style.borderColor = 'black';
         }
@@ -54,11 +53,11 @@ inicio.style.backgroundAttachment = 'fixed';
 let contador = 0;
 let number = document.querySelector('.number-one');
 
-let slide1 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/bg1.png)';
-let slide2 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/bg2.png)';
-let slide3 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/bg3.png)';
-let slide4 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/bg4.png)';
-let slide5 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/bg5.png)';
+let slide1 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg1.png)';
+let slide2 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg2.png)';
+let slide3 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg3.png)';
+let slide4 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg4.png)';
+let slide5 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg5.png)';
 
 function slide() {
     contador++;
