@@ -53,11 +53,11 @@ inicio.style.backgroundAttachment = 'fixed';
 let contador = 0;
 let number = document.querySelector('.number-one');
 
-let slide1 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg1.png)';
-let slide2 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg2.png)';
-let slide3 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg3.png)';
-let slide4 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg4.png)';
-let slide5 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(C:/Users/Dirosaki/Desktop/Teste/img/bg5.png)';
+let slide1 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(https://raw.githubusercontent.com/Dirosaki/Yesh/master/img/bg1.png)';
+let slide2 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(https://raw.githubusercontent.com/Dirosaki/Yesh/master/img/bg2.png)';
+let slide3 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(https://raw.githubusercontent.com/Dirosaki/Yesh/master/img/bg3.png)';
+let slide4 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(https://raw.githubusercontent.com/Dirosaki/Yesh/master/img/bg4.png)';
+let slide5 = 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(https://raw.githubusercontent.com/Dirosaki/Yesh/master/img/bg5.png)';
 
 function slide() {
     contador++;
